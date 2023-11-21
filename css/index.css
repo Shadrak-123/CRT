@@ -1,0 +1,51 @@
+/*applying styles
+*/
+.body{
+    height: fit-content;
+    width: fit-content;
+    scroll-snap-stop: 100px;
+}
+header {
+    background-color: rgb(192,200,300);
+    height: 50px;
+    text-align: center;
+    padding-top: 60px;
+    font-size: 40px;
+    font-family:'Courier New', Courier, monospace;
+    width: 100%;
+}
+nav {
+    text-align: center;
+    width: 30%;
+    background-color: aqua;
+    height: 550px;
+    float: left;
+}
+nav ul{
+    list-style-type: none;
+}
+nav ul li{
+    padding: 55px;
+}
+nav ul li a{
+    text-decoration:none;
+}
+article{
+    width: 70%;
+    height: 550px;
+    background-color: bisque;
+    float: right;
+    text-align: center;
+}
+/* pseudo element selector */
+section::after{
+    display: table;
+    content: "";
+    clear: both;
+}
+footer{
+    background-color:aquamarine;
+    text-align: center;
+    font-size: 30px;
+    padding: 1px;
+}
